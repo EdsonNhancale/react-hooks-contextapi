@@ -18,5 +18,8 @@ Após aberto o repositorio deste projecto e correr o comando: `yarn start`
 ###### view
 - Onde criamos as nossas vizualizações
 
+###### service
+- Onde Guardamos o nosso Provider e o nosso Context
+
 > Esta maneira de trabalhar com dados globais não só é simples mas como
 >ajuda na identação do código que o torna muito poderoso.
