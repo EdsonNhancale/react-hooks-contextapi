@@ -23,10 +23,6 @@ export const UserController = () => {
         logout()
     }
 
-    const isAuthenticated = () => {
-        return !!user
-    }
-
     const currentUser = () => {
         return user
     }
@@ -34,7 +30,6 @@ export const UserController = () => {
     return {
         onLogin,
         onLogout,
-        isAuthenticated,
         currentUser
     }
 }

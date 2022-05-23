@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import { GlobalProvider } from './services/privider/GlobalProvider';
+import Login from './pages/login/Login';
 
 function App() {
   return (
-    <div className="App">
-      Settup the project
-    </div>
+    <GlobalProvider>
+      <Login />
+    </GlobalProvider>
   );
 }
 
