@@ -7,8 +7,6 @@ function Login() {
     const [email, setemail] = useState("")
     const [password, setpassword] = useState("")
 
-    console.log(isAuthenticated())
-
     return (
         <>
             {!isAuthenticated() ?
@@ -34,7 +32,7 @@ function Login() {
                 </>
                 :
                 <>
-                    <label>{currentUser.email}</label>
+                    <div>{currentUser().email}</div>
                     <button onClick={() => onLogout()}>
                         Logout
                     </button>
