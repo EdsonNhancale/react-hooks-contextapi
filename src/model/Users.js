@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export const Users = () => {
+const Users = () => {
     const [user, setuser] = useState("")
 
     const login = (data) => {
@@ -18,4 +18,4 @@ export const Users = () => {
     }
 }
 
-
+export default Users
